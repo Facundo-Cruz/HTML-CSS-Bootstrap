@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 06</title>
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="método java" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre del usuario</label>
+        <br>
+        <input type="text" name="nombre" placeholder="Tú nombre">
+        <br>
+        <label for="contraseña">Contraseña del usuario</label>
+        <br>
+        <input type="password" name="contraseña" placeholder="*******">
+        <br>
+        <label for="edad">Edad del usuario</label>
+        <br>
+        <input type="number" name="edad" placeholder="Tú edad">
+        <br>
+        <label for="fecha-de-nacimiento">Fecha de nacimiento del usuario</label>
+        <br>
+        <input type="date" name="fecha-de-nacimiento">
+        <br>
+        <label>Sexo del usuario</label>
+        <br>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <br>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <input type="radio" id="otros" name="sexo" value="otros">
+        <label for="otros">Prefiero no decir</label>
+        <br>
+        <label for="pais">País de nacimiento del usuario</label>
+        <br>
+        <select name="pais" id="pais">
+            <option disabled selected>Seleccionar</option>
+            <option value="arg">Argentina</option>
+            <option value="ch">Chile</option>
+            <option value="ur">Uruguay</option>
+            <option value="pr">Paraguay</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <input type="reset">
+        <br> 
+
+    </form>
+</body>
+
+</html>

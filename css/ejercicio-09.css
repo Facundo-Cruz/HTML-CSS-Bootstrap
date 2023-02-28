@@ -1,0 +1,43 @@
+#titulo{
+    color: #367e7f;
+}
+p strong{
+    color: #ec402e;
+}
+.destacado{
+    color: #f4b253;
+}
+#subtitulo{
+    color: #0023f5;
+}
+body>p a{
+    color: #ec402e;
+}
+a[href="#"] em{
+    color: #0023f5;
+}
+p .especial{
+    color: brown;
+}
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+table th, table td{
+    border: 1px solid #000;
+}
+td{
+    color: #367e7f;
+}
+tfoot, tbody th{
+    color: #ec402e;
+}
+th[class="especial"], td strong{
+    color: #f6bc62;
+}
+#especial{
+    color: #ec402e; 
+}
+#adicional a{
+    color: #367e7f;
+}

@@ -1,0 +1,27 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial;
+    text-align: center;
+    /* border-spacing: 0; */
+}
+table th, table td{
+    border: 1px solid #000;
+    padding: 8px;
+}
+th{
+    background-color: #e6e6e6;
+}
+
+.yellow {
+    background-color: #fefece;
+}
+
+.money {
+    background-color: #e6f6ff;
+    text-align: left;
+}
+
+#libra::before{
+    content: "£ ";
+}
